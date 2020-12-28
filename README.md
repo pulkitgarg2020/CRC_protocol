@@ -18,4 +18,5 @@ The program can be simply run with the following command:
 py crc.py
 ```
 After a successful execution of the program, you will get prompts which are self explanatory. 
+Also a file has been provided in the repo for three sample runs for the program. 
 
