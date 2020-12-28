@@ -1,0 +1,35 @@
+1.
+py crc.py
+Enter 1 to send a message, 2 to check error in a received message and 3 to exit 1
+Enter the message M(x) bit string: 1101011
+Enter the reference polynomaial G(x) bit string: 1101
+Transmitted String: 1101011010
+Enter 1 to send a message, 2 to check error in a received message and 3 to exit 2
+Enter the received p(x) bit string: 1101011010
+Enter the reference polynomaial G(x) bit string: 1101
+Message received without any errors
+Enter 1 to send a message, 2 to check error in a received message and 3 to exit 3
+
+2.
+py crc.py
+Enter 1 to send a message, 2 to check error in a received message and 3 to exit 1
+Enter the message M(x) bit string: 1101011
+Enter the reference polynomaial G(x) bit string: 1101
+Transmitted String: 1101011010
+Enter 1 to send a message, 2 to check error in a received message and 3 to exit 2
+Enter the received p(x) bit string: 1101011011
+Enter the reference polynomaial G(x) bit string: 1101
+Error in transmission since remainder: 001
+Enter 1 to send a message, 2 to check error in a received message and 3 to exit 3
+
+3.
+py crc.py
+Enter 1 to send a message, 2 to check error in a received message and 3 to exit 1
+Enter the message M(x) bit string: 10110011
+Enter the reference polynomaial G(x) bit string: 11001
+Transmitted String: 101100110100
+Enter 1 to send a message, 2 to check error in a received message and 3 to exit 2
+Enter the received p(x) bit string: 101100110111
+Enter the reference polynomaial G(x) bit string: 11001
+Error in transmission since remainder: 0011
+Enter 1 to send a message, 2 to check error in a received message and 3 to exit 3
